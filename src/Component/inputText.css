@@ -1,0 +1,132 @@
+.body{
+    background-color: #e2d8f7;
+}
+.third-sec{
+    border: 1px solid whitesmoke;
+    background-color: #DCBFFF;
+    box-shadow: 0 0 10px rgba(154, 37, 213, 0.3);
+    border-radius: 20px;
+}
+.dequeue{
+    
+    display:flex;
+   
+   text-align: start;
+   background-color: #DCBFFF;
+    
+    border-radius: 20px;
+}
+.dequeue ul{
+    list-style: none;
+    
+ 
+}
+.dequeue li{
+    text-align:start;
+    font-size: 16px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding-top:2px;
+    padding-bottom: 2px;
+    padding-left: 4px;
+    padding-right: 4px;
+    margin-top: 10px;
+    margin-right: 20px;
+    background-color: #df81e3;;
+    color:white;
+    
+    border: 1px solid #DCBFFF;
+}
+
+.sub-sec{
+    display: grid;
+    gap: 2px;
+    grid-template-rows: repeat(2,1fr);
+  
+}
+/* .sub-sec button{
+    margin-left: 10px;
+    width: 50px;
+    height: 30px;
+    padding: 2;
+} */
+.sub-sec input{
+    width: 300px;
+    height: 40px;
+    text-align: center;
+    border-radius: 8px;
+    border:transparent
+}
+.div{
+    border: 1px solid whitesmoke;
+    background-color: #DCBFFF;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(154, 37, 213, 0.3);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.div button{
+   
+    background-color: #9d63f5;
+    color: white;
+}
+    
+
+.div button:hover{
+    color:white;
+    background-color: #724ec6;
+    ;
+}
+
+.button button{
+    float: inline-start;
+    margin-top: 400px;
+    width: 100px;
+    padding: 10px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    background-color: #9d63f5;
+    color: white;
+    
+}
+.button button:hover{
+    color:white;
+    background-color: #724ec6;
+}
+.queue{
+    border: 1px solid whitesmoke;
+    
+    box-shadow: 0 0 10px rgba(154, 37, 213, 0.3);
+   display: flex;
+   text-align: start;
+   margin-top: 10px;
+   background-color: #DCBFFF;
+   border-radius: 20px;
+
+    
+}
+.queue ul{
+    list-style: none;
+}
+.queue li{
+    box-shadow: 0 0 10px rgba(197, 135, 228, 0.3);
+    background-color: #df81e3;
+    color: white;
+    font-size: 16px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 2px;
+    margin-top: 10px;
+    border: 1px solid #DCBFFF;
+
+}
+.navbar {
+    
+    background-color:#8544bd;
+}
+.nav-link{
+    color: white;
+}
+
+
